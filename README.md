@@ -1,13 +1,13 @@
-#Clasificación de maduración de aguacate
+# Clasificación de maduración de aguacate
 
 Este repositorio contiene un modelo de aprendizaje automático entrenado para predecir el **nivel de maduración de aguacates** (`ripeness`) a partir de distintas características físicas.
 
-##Contenido
+## Contenido
 
 - `avocado_model.pkl`: modelo de clasificación entrenado con scikit-learn.
 - `inference.py`: script de inferencia para hacer predicciones con nuevos datos.
 
-##Características de entrada
+## Características de entrada
 
 El modelo fue entrenado con las siguientes 8 características:
 
@@ -24,7 +24,7 @@ El modelo fue entrenado con las siguientes 8 características:
 
 - `ripeness`: nivel de maduración (clasificación)
 
-## 🚀 Uso
+## Uso
 
 ### 1. Clona el repositorio
 
@@ -34,4 +34,6 @@ cd tu-repo
 
 ### 2. Instala kas dependencias necesarias
 pip install scikit-learn numpy joblib
-### 3. Ejecuta el script inference.py
+
+### 3. Ejecuta el script inference
+python inference.py
