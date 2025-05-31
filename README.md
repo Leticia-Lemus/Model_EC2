@@ -29,8 +29,8 @@ El modelo fue entrenado con las siguientes 8 características:
 ### 1. Clona el repositorio
 
 #```bash
-git clone https://github.com/tu-usuario/tu-repo.git
-cd tu-repo
+git clone https://github.com/Leticia-Lemus/Model_EC2.git
+cd Model_EC2/main
 
 ### 2. Instala kas dependencias necesarias
 pip install scikit-learn numpy joblib
